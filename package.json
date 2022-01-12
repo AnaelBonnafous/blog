@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Mon blog personnel",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaelBonnafous/blog.git"
+  },
+  "author": "AnaelBonnafous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaelBonnafous/blog/issues"
+  },
+  "homepage": "https://github.com/AnaelBonnafous/blog#readme",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.5"
+  }
+}
