@@ -51,6 +51,13 @@ module.exports = {
     sitemap: {
       hostname: 'https://blog.anaelbonnafous.fr',
     },
+    comment: {
+      service: 'vssue',
+      owner: 'AnaelBonnafous',
+      repo: 'blog',
+      clientId: 'ab45473b39ee20a14529',
+      clientSecret: '16267940d7ea220de8894f611c4354265f615b27',
+    },
     feed: {
       canonical_base: 'https://blog.anaelbonnafous.fr',
       rss: true,
